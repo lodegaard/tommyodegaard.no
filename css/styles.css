@@ -10281,7 +10281,7 @@ body {
 }
 
 .prices-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .prices-section .featured-text {
   padding: 2rem;
@@ -10368,17 +10368,20 @@ body {
 }
 
 .modal-dialog {
-    margin-top: 0rem;
-    max-width: 100%;
-    
-    .modal-content {
-      border-radius: 0rem;
-    }
-    
-    .buttons {
-      .btn {
-        margin: 0.2rem;
-      }
-    }
+  margin-top: 0rem;
+  max-width: 100%;
+  
+  .modal-content {
+    border-radius: 0rem;
   }
   
+  .buttons {
+    .btn {
+      margin: 0.2rem;
+    }
+  }
+}
+ 
+.notice-section {
+  padding-top: 5rem;
+}
